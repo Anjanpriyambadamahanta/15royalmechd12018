@@ -1,0 +1,15 @@
+number=int(input("enter the number"))
+if(number>=90):
+	print("a+")
+elif(number>=80):
+
+
+	print("a")
+elif(number>=70):
+	print("b+")
+elif(number>=60):
+	print("b")
+elif(number>=40):
+	print("c")
+elif(number<40):
+	print("fail")	

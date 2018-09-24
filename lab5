@@ -1,0 +1,3 @@
+a=i
+while(i<=5):
+	print(a)
