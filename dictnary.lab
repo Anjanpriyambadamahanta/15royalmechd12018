@@ -1,0 +1,66 @@
+dl104@soetcse:~/anjan$ python3
+Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> l=[1,2,3,4]
+>>> l
+[1, 2, 3, 4]
+>>> a=['a','b','c','d']
+>>> a
+['a', 'b', 'c', 'd']
+>>> l
+[1, 2, 3, 4]
+>>> l.insert(5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+>>> l.append(5)
+>>> l
+[1, 2, 3, 4, 5]
+>>> l.append([6,7])
+>>> l
+[1, 2, 3, 4, 5, [6, 7]]
+>>> a
+['a', 'b', 'c', 'd']
+>>> a.index('c')
+2
+>>> a.insert(4,'e')
+>>> a
+['a', 'b', 'c', 'd', 'e']
+>>> a.remove('e')
+>>> a
+['a', 'b', 'c', 'd']
+>>> a.insert(4,'c')
+>>> a
+['a', 'b', 'c', 'd', 'c']
+>>> a.count('c')
+2
+>>> a+=['f','g']
+>>> a
+['a', 'b', 'c', 'd', 'c', 'f', 'g']
+>>> d=[9,10]
+>>> d*=2
+>>> d
+[9, 10, 9, 10]
+>>> print(len(d))
+4
+>>> len(d)
+4
+>>> len(a)
+7
+>>> dict={1:'Anjan',2:'chetan',3:'Anil'}
+>>> dict[1]
+'Anjan'
+>>> g={'a':78,'b':67,'c':90}
+>>> g
+{'a': 78, 'b': 67, 'c': 90}
+>>> g['b']
+67
+>>> l
+[1, 2, 3, 4, 5, [6, 7]]
+>>> a
+['a', 'b', 'c', 'd', 'c', 'f', 'g']
+>>> for i in a:
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+
